@@ -15,6 +15,7 @@ import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
 import JadwalPiket from "../assets/images/piketCamp.svg";
 import PeminjamanInternal from "../assets/images/PeminjamanInternal.png";
 import PeminjamanEksternal from "../assets/images/PeminjamanEksternal.png";
+import BtnWA from "../Components/BtnWa";
 
 const LandingPage = () => {
   const departments = [
@@ -36,6 +37,11 @@ const LandingPage = () => {
         instagram: "whyuanang__",
         github: "wahyuanang",
         linkedin: "wahyu-anang-zulfikri-07002829a",
+      },
+      buttonWA: {
+        contact: {
+          whatsapp: "+62 856-5215-1274",
+        },
       },
     },
   ];
@@ -366,6 +372,9 @@ const LandingPage = () => {
             </p>
           </motion.div>
         </div>
+        {departments.find((member) => member.buttonWA) && (
+          <BtnWA phoneNumber={departments.find((member) => member.buttonWA).buttonWA.contact.whatsapp} />
+        )}
       </footer>
     </div>
   );
