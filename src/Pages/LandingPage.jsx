@@ -13,6 +13,7 @@ import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
 import JadwalPiket from "../assets/images/piketCamp.svg";
+import JadwalPiketSekre from "../assets/images/piketSekreGanjil.svg";
 import PeminjamanInternal from "../assets/images/PeminjamanInternal.png";
 import PeminjamanEksternal from "../assets/images/PeminjamanEksternal.png";
 import BtnWA from "../Components/BtnWa";
@@ -156,7 +157,7 @@ const LandingPage = () => {
             >
               <div className="relative">
                 <img
-                  src={JadwalPiket}
+                  src={JadwalPiketSekre}
                   alt="Secretariat"
                   className="w-full h-64 object-cover"
                 />
