@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .marquee-container {
     width: 100%;
     overflow: hidden;
