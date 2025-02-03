@@ -9,7 +9,7 @@ import {
   Github,
   Linkedin,
 } from "lucide-react";
-import FotoZayga from "../assets/images/zayga.png";
+import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
 import JadwalPiket from "../assets/images/piketCamp.svg";
