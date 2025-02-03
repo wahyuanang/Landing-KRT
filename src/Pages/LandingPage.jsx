@@ -13,8 +13,8 @@ import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
 import JadwalPiket from "../assets/images/piketCamp.svg";
-import PeminjamanInternal from "../assets/images/peminjaman internal.png";
-import PeminjamanEksternal from "../assets/images/peminjaman eksternal.png";
+import PeminjamanInternal from "../assets/images/Peminjaman internal.png";
+import PeminjamanEksternal from "../assets/images/Peminjaman eksternal.png";
 
 const LandingPage = () => {
   const departments = [
