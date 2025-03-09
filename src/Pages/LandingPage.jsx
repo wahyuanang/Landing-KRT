@@ -12,8 +12,8 @@ import {
 import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
-import JadwalPiket from "../assets/images/piketCamp.svg";
-import JadwalPiketSekre from "../assets/images/piketSekreGanjil.svg";
+import JadwalPiket from "../assets/images/piketCampnew.svg";
+import JadwalPiketSekre from "../assets/images/piketSekrenew.svg";
 import PeminjamanInternal from "../assets/images/PeminjamanInternal.png";
 import PeminjamanEksternal from "../assets/images/PeminjamanEksternal.png";
 import BtnWA from "../Components/BtnWa";
@@ -116,7 +116,7 @@ const LandingPage = () => {
                 <img
                   src={JadwalPiket}
                   alt="Camp"
-                  className="w-full h-64 object-cover"
+                  className="w-full h-52 lg:h-72 md:h-52 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 flex items-end"></div>
               </div>
@@ -159,7 +159,7 @@ const LandingPage = () => {
                 <img
                   src={JadwalPiketSekre}
                   alt="Secretariat"
-                  className="w-full h-64 object-cover"
+                  className="w-full h-52 lg:h-72 md:h-52 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 flex items-end"></div>
               </div>
@@ -374,7 +374,12 @@ const LandingPage = () => {
           </motion.div>
         </div>
         {departments.find((member) => member.buttonWA) && (
-          <BtnWA phoneNumber={departments.find((member) => member.buttonWA).buttonWA.contact.whatsapp} />
+          <BtnWA
+            phoneNumber={
+              departments.find((member) => member.buttonWA).buttonWA.contact
+                .whatsapp
+            }
+          />
         )}
       </footer>
     </div>
