@@ -12,8 +12,8 @@ import {
 import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
-import JadwalPiket from "../assets/images/2.0.svg";
-import JadwalPiketSekre from "../assets/images/2.1.svg";
+import JadwalPiket from "../assets/images/2.1.svg";
+import JadwalPiketSekre from "../assets/images/2.0.svg";
 import PeminjamanInternal from "../assets/images/PeminjamanInternal.png";
 import PeminjamanEksternal from "../assets/images/PeminjamanEksternal.png";
 import BtnWA from "../Components/BtnWa";
