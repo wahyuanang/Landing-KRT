@@ -125,11 +125,11 @@ const LandingPage = () => {
                   <div className="flex items-center gap-3">
                     <Home className="w-8 h-8 text-black" />
                     <h3 className="text-2xl font-semibold text-black">
-                      Piket Camp
+                      Piket Sekre
                     </h3>
                   </div>
                   <p className="text-gray-600 px-1">
-                    Jadwal piket untuk area camp dan sekitarnya
+                  Jadwal piket untuk area sekretariat
                   </p>
                 </div>
                 <div className="lg:flex lg:space-x-4">
@@ -137,13 +137,13 @@ const LandingPage = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScxRurn3PXI5y88YYJfCaINDQkbpGvPb_IsFhwjzL6wFlr2uQ/viewform?usp=sf_link"
                     className="block text-[#1599D6] font-medium transition-colors"
                   >
-                    ↗ Link Presensi camp
+                    ↗ Link Presensi Sekre
                   </a>
                   <a
                     href="#"
                     className="block text-[#1599D6] font-medium transition-colors"
                   >
-                    ↗ SOP Piket Camp
+                    ↗ SOP Piket Sekre
                   </a>
                 </div>
               </div>
@@ -168,11 +168,11 @@ const LandingPage = () => {
                   <div className="flex items-center gap-3">
                     <Building className="w-8 h-8 text-black" />
                     <h3 className="text-2xl font-semibold text-black">
-                      Piket Sekre
+                      Piket Camp
                     </h3>
                   </div>
                   <p className="text-gray-600 px-1">
-                    Jadwal piket untuk area sekretariat
+                  Jadwal piket untuk area camp dan sekitarnya
                   </p>
                 </div>
                 <div className="lg:flex lg:space-x-4">
@@ -180,13 +180,13 @@ const LandingPage = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScxRurn3PXI5y88YYJfCaINDQkbpGvPb_IsFhwjzL6wFlr2uQ/viewform?usp=sf_link"
                     className="block text-[#1599D6] font-medium transition-colors"
                   >
-                    ↗ Link Presensi Sekre
+                    ↗ Link Presensi Camp
                   </a>
                   <a
                     href="#"
                     className="block text-[#1599D6] font-medium transition-colors"
                   >
-                    ↗ SOP Piket Sekre
+                    ↗ SOP Piket Camp
                   </a>
                 </div>
               </div>
