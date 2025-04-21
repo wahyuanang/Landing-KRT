@@ -12,8 +12,8 @@ import {
 import FotoZayga from "../assets/images/Zayga.png";
 import FotoWahyu from "../assets/images/Wahyu.png";
 import FotoKeluarga from "../assets/images/KeluargaAmcc.png";
-import JadwalPiket from "../assets/images/2.1.svg";
-import JadwalPiketSekre from "../assets/images/2.0.svg";
+import JadwalPiket from "../assets/images/piketCampnew.svg";
+import JadwalPiketSekre from "../assets/images/piketSekrenew.svg";
 import PeminjamanInternal from "../assets/images/PeminjamanInternal.png";
 import PeminjamanEksternal from "../assets/images/PeminjamanEksternal.png";
 import BtnWA from "../Components/BtnWa";
@@ -114,7 +114,7 @@ const LandingPage = () => {
             >
               <div className="relative">
                 <img
-                  src={JadwalPiket}
+                  src={JadwalPiketSekre}
                   alt="Camp"
                   className="w-full h-52 lg:h-72 md:h-52 object-cover"
                 />
@@ -129,7 +129,7 @@ const LandingPage = () => {
                     </h3>
                   </div>
                   <p className="text-gray-600 px-1">
-                  Jadwal piket untuk area sekretariat
+                    Jadwal piket untuk area sekretariat
                   </p>
                 </div>
                 <div className="lg:flex lg:space-x-4">
@@ -157,7 +157,7 @@ const LandingPage = () => {
             >
               <div className="relative">
                 <img
-                  src={JadwalPiketSekre}
+                  src={JadwalPiket}
                   alt="Secretariat"
                   className="w-full h-52 lg:h-72 md:h-52 object-cover"
                 />
@@ -172,7 +172,7 @@ const LandingPage = () => {
                     </h3>
                   </div>
                   <p className="text-gray-600 px-1">
-                  Jadwal piket untuk area camp dan sekitarnya
+                    Jadwal piket untuk area camp dan sekitarnya
                   </p>
                 </div>
                 <div className="lg:flex lg:space-x-4">
